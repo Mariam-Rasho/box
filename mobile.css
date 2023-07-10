@@ -6,6 +6,10 @@
   align-content: center;
   padding: 10px;
 }
+a:hover {
+  background-color: #2f2fcf;
+  line-height: 100%;
+}
 .top .flex-container {
   justify-content: space-between;
 }
