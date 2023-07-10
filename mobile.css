@@ -1,0 +1,45 @@
+.flex-container {
+  max-width: 100%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  padding: 10px;
+}
+.top .flex-container {
+  justify-content: space-between;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+}
+.navbar input {
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: 7px;
+  right: 30px;
+  opacity: 0;
+}
+.navbar .fa {
+  display: block;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 20px;
+}
+.linkes {
+  position: fixed;
+  width: 100vw;
+  top: 45px;
+  right: 0;
+  /* text-align: left; */
+  padding: 10px;
+  background: #3475e6c8;
+  display: none;
+}
+.navbar input:checked ~ .linkes {
+  display: flex;
+  justify-content: space-between;
+}
